@@ -40,14 +40,16 @@ const SocialLinks = () => {
           Resume <BsPersonDown size={30} />
         </>
       ),
-      href: "/Resume-Nitipath Chuejuntuk.pdf",
+      //TODO ลองเปลี่ยนเป็น download และ deploy ด้วย
+      // href: "/Resume-Nitipath Chuejuntuk.pdf",
+      href: "https://drive.google.com/file/d/1Vm5C24bQey6PzJb8WHXammJRcFWduir0/view?usp=sharing",
       style: "rounded-br-md",
-      download: true,
+      // download: true,
     },
   ];
 
   return (
-    <div className="flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map((item) => {
           // หรือจะ desturc ก็ได้ {links.map(({id,child}))} และเอา id or child ไปใช้ได้เลย
@@ -64,7 +66,7 @@ const SocialLinks = () => {
                 <a
                   href={item.href}
                   className="flex justify-between items-center w-full text-white"
-                  download={item.download}
+                  // download={item.download}
                   target="_blank"
                   rel="noreferrer"
                 >

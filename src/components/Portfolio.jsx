@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import installNode from "../assets/portfolio/installNode.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import tattooPost from "../assets/portfolio/tattooPost.jpg";

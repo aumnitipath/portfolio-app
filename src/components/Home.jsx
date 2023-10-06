@@ -10,10 +10,13 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full ">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white    ">
-            I'm a Full Stack Developer
+          <h2 className="text-4xl sm:text-6xl font-bold text-white    ">
+            Nitipath Chuejuntuk
           </h2>
-          <p className="text-gray-400 py-4 max-w-md">
+          <p className="text-gray-100 py-3 max-w-md text-2xl font-bold  ">
+            Full Stack Developer
+          </p>
+          <p className="text-gray-400 py-1 max-w-md">
             I am seeking a position as a Junior Full-Stack Developer at a
             company where I can utilize my knowledge of software and leadership
             skills to become an effective Software Engineer.
